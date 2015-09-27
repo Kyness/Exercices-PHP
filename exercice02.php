@@ -134,7 +134,7 @@
 							
 					}
 					if($result == true){
-						header("Location: ".$config['page_merci']);
+						header("Location: merci.html");
 					}else{
 						echo('Il y a du avoir une erreur, réessayez !');
 					}
